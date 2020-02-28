@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Gloria+Hallelujah|Indie+Flower|Pacifico|Rajdhani|Shadows+Into+Light');
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+body,html{
+	width: 100%;
+    height: 100%;
+	
+}
+body{
+	 background-size:cover;	 
+	 background-image: url(../images/oboi.jpg);
+	  background-position: 50% 50%;
+	  
+	 }
+@font-face 
+{
+   font-family: Pompadur; /* Гарнитура шрифта */
+   src: url(../fonts/13888.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+	 font-family: Road Rage; /* Гарнитура шрифта */
+     src: url(../fonts/13891.ttf);
+}
+header{
+	width: 100%;
+	padding: 10px 0.5% 0px 0.5%;
+	background: transparent;
+	height: 150px;
+	position: fixed;
+}
+header #logo {
+	padding:30px;
+	color: #f44d41;
+	cursor: pointer;
+	float:left;
+}
+header #logo span{
+	font-family:Pompadur,serif;
+	font-size: 1.7em;
+  	line-height: 45px;
+	margin-left: auto;
+	margin-right:auto;
+}	
+#menu{
+	float:right;
+	padding:10px;
+}
+.hotline{
+	font-family: Road Rage,serif;
+	font-size: 1.3em;
+  	line-height: 55px;
+	margin-right: 40px;
+	color: #50de10;
+	cursor: pointer;
+}
+.hotline:hover{
+	font-size: 1.4em;
+	color: #b3f442;
+}
+
+.fixed {
+	z-index:1;
+	background-color:#e001b3;
+	height: 120px;
+}
+.fixedd {
+	z-index:1;
+	background-color:#00efd3;
+	height: 120px;
+}
+
+
+
+.centr{
+	display:inline-block;
+	width:80%;
+	max-height:800px;
+	height:100%;
+	margin-right:auto;
+	margin-left:auto;
+	float:left;
+	padding-left:10%;
+	padding-right:10%;
+	padding-top:0%;
+	background-image: url(../images/bckgrmidle.png);
+	background-size: cover;
+	background-attachment:fixed;
+}
+
+
+.middlearea > span{
+	
+	position:absolute;
+	left:10px;
+	right:10px;
+	bottom:15px;
+	font-family:Pacifico, serif;
+	font-size:3em;
+	color:#59f442;
+	text-shadow: 0 2px 3px #FF0000, 0 4px 6px #0000FF;
+}
+.middlearea{
+	
+	position:relative;
+	display:inline-block;
+	box-sizing:border-box;	
+	margin:4%;
+	width:25%;
+	background-blend-mode:myltiply;
+    background-color: rgb(255, 255, 255);
+	border: 3px inset #7a0303;
+	height:70%;
+
+	opacity:0.7;
+	
+}
+.middlearea:hover{
+	opacity:1;
+	border: 3px inset #ff0f0f;
+}
+#option1{
+	background-image:url(../images/runner.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	
+}
+#option2{
+	background-image:url(../images/zombi_zogo.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+}
+#option3{
+	background-image:url(../images/digg_logo.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	
+}
+.a,.b,.c,.d{
+	height:0%;
+	width:0%;
+	position:absolute;
+	display:none;
+}
+
+#mainfield{
+	width:100%;
+	max-height:450px;
+	height:100%;
+	padding-top:15%;
+	padding-bottom:12%;
+}
+
+#rightmidlediv{
+	width:33%;
+	padding-right:50px;
+	float:right;
+	text-align:center;
+	font-size:1em;
+	font-family: 'Indie Flower', cursive;
+	text-shadow: 3px 3px 2px black, 0 0 1em #1ae200;
+}
+#rightmidlediv:hover{
+    text-shadow: 3px 3px 2px black, 0 0 1em #00d6e2;
+}
+
+#one{
+	height:100%;
+	width:100%;
+	position:relative;
+	display:block;
+}
+#one > span{
+	margin-left:10px;
+	margin-right:10px;
+	padding-left:10px;
+	padding-right:10px;
+	font-size:3em;
+	border:2px dotted red;
+	font-family: 'Indie Flower', cursive;
+}
+#one > span:hover{
+	cursor:pointer;
+	font-size:3em;
+	border:2px dotted #2104dd;
+	
+}
+div #one.c > span {
+	font-size:2.5em;
+}
+div #one.c > span:hover {
+	font-size:2.5em;
+}
+footer{
+	padding-top:50px;
+	float:left;
+	width:100%;
+	background-image: url(../images/bckfooter.jpg);
+	background-blend-mode:multiply;
+	background-color:#6904d6;
+	background-size:cover;
+	border-top:3px dotted #a20aaa;
+		
+}
+#form_input{
+	padding-left:10%;
+	width: 35%;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+#form{
+	margin-left:auto;
+	margin-right:auto;
+}
+#form_input label{
+	color: #ffff16;
+	cursor: pointer;
+    
+}
+#form_input label > span {
+	color:#e87e7e;
+}
+#form_input input, #form_input textarea {
+	margin-bottom: 10px;
+	width:70%;
+	padding: 10px 2%;
+	border-radius: 7px;
+	border: 2px solid silver;
+	font-size: 0.9em;
+	color: #4a4a4a;
+}
+#form_input input:focus, #form_input textarea:focus {
+	border-color: #333;
+}
+@media screen and (max-width: 1400px){
+	body{
+		 background-position: 70% 50%;
+	}
+	.middlearea{
+	margin:5%;
+	width:45%;
+	}
+	.centr{
+	overflow:auto;
+	height:60%;
+	
+}
+	
+}
+@media screen and (max-width: 800px){
+	body{
+		 background-position: 70% 50%;
+	}
+	.middlearea{
+	margin-left:auto;
+	margin-right:auto;
+	width:85%;
+	margin-top:10%;
+	margin-bottom:10%;
+	}
+	.centr{
+	justify-content: center;
+	}
+}
+@media screen and (max-width: 680px){
+	body{
+		 background-position: 70% 50%;
+	}
+	.middlearea{
+	
+	}
+	.centr{
+	
+	}
+	#logo{
+		display:none;
+	}
+    #menu > nav{
+	 font-size:1.5em;
+    }
+	#menu {
+	 text-align:center;	
+	 float:none;
+	 margin: 0 auto;
+    }
+}	

@@ -1,0 +1,87 @@
+@font-face
+{
+   font-family: Pompadur; /* Гарнитура шрифта */
+   src: url(../fonts/13888.otf); /* Путь к файлу со шрифтом */
+}
+div.buttons
+{
+ float:left;
+ width:10%;
+
+
+}
+.buttonz
+{
+  width:100%;
+  font-weight: 10px;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: rgb(64,199,129);
+  box-shadow: 12px 14px 10px 0px rgba(44,16,105,0.67);
+  transition: 1s;
+}
+.buttonz:hover {
+  background: rgb(53, 167, 110);
+  box-shadow: 12px 14px 13px 3px rgba(44,16,105,0.67);
+
+}
+.buttonz:active {
+  background: rgb(33,147,90);
+   box-shadow: 12px 14px 10px 0px rgba(44,16,105,0.67);
+}
+
+.posright
+{
+	width:10%;
+	padding-right:6px;
+	margin-right:20px;
+	float:right;
+	font-size:2.2em;
+	font-family: Pompadur,  cursive;
+
+}
+#divCanvas
+{
+    padding: 10px;
+    border: 8px dotted rgb(152, 66, 244);
+    margin-left:auto;
+	margin-right:auto;
+    width:70%;
+	margin-top: 0;
+	margin-Bottom: 0;
+	padding:0;
+
+}
+#myCanvas{
+
+	border: 8px dotted rgb(150, 173, 24);
+	width:88%;
+	margin-left:5%;
+	margin-right:5%;
+	margin-top: 0;
+
+}
+p{
+
+	width:100%;
+}
+
+.headerelements{
+	transition: 3s;
+	color:#021aef;
+	text-shadow: 10px 10px 7px rgba(20, 29, 204,0.67);
+}
+.headerelements:hover{
+	  transition: 0.5s;
+	  color:#00d2f7;
+	   text-shadow: 13px 14px 13px rgba(44,16,105,0.57);
+}
+#homee{
+	display:none;
+  transition: 5s;
+}
+#btz{
+  transition: 5s;
+}

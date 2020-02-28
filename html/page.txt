@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>
+
+</title>
+<script javascript>
+function ToGame(){
+}
+</script>
+</head>
+<body background="images/original.jpg">
+
+</body>
+</html>

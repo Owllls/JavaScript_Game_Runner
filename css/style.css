@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+.lefttt
+{
+	align:left;
+	width:20%;
+	background-color:gray;
+}
+div.menubar
+{
+	position:absolute;
+	right:10px;
+	padding:0px;
+	margin:0px;
+	min-width:50px;
+	max-width:100px;
+	width:10%;
+	
+	
+}
+
+@font-face 
+{
+   font-family: Pompadur; /* Гарнитура шрифта */
+   src: url(../fonts/13888.otf); /* Путь к файлу со шрифтом */
+}
+ h1
+{
+   font-family: Pompadur,  cursive;
+}
+@font-face {
+	 font-family: Road Rage; /* Гарнитура шрифта */
+     src: url(../fonts/13891.ttf);
+}
+label{
+	font-family: Road Rage;
+	cursor:pointer;
+	font-size: 25px;
+	color:#00ff11;
+}
+.radioknopka
+{
+	cursor:pointer;
+}
+#nazvanye
+{
+ 
+ max-width:400px;
+ min-width:100px;
+ margin-left:auto;
+ margin-right:auto;
+
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="Author" content="">
+ <meta name="KeyWords" content="">
+ <meta name="Description" content="">
+  <link rel="stylesheet" type="text/css" href="../css/stylee.css"/>
+
+
+<title>
+
+</title>
+</head>
+<header >
+
+<div class="posright">
+<nav>
+<p><a id="home" class="headerelements" href="mainmenu2.html"> HOME </a></p>
+<p><a id="homee" class="headerelements" href="#" onClick="btzback()"> Buttons </a> </p>
+
+</nav>
+</div>
+
+</header>
+<body background="../images/bcforgamepage2.jpg" >
+
+<div class="buttons" id="btz">
+<p> <input class="buttonz" type="Button" value="Start" id="" onClick="StartGame()" />  </p>
+<p> <input class="buttonz" type="Button" value="Option" id="" onClick="Option()" />  </p>
+<p> <input class="buttonz"  type="Button" value="Settings" id="" onClick="Settings()" />  </p>
+<p> <input class="buttonz"  type="Button" value="Exit" id="" onClick="loadingg()" />  </p>
+</div>
+<div id="divCanvas" alt="Убери мышку с экрана!!!">
+<canvas id="myCanvas" width="800" height="490" alt="Убери мышку с экрана!!!"></canvas>
+</div>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </script>
+ <script src="../script/js2.js">
+ </script>
+
+ <script>
+    function btzback(){
+	document.getElementById("divCanvas").style.width="70%";
+  document.getElementById("myCanvas").style.width="88%";
+	document.getElementById("divCanvas").style.marginLeft="auto";
+	document.getElementById("btz").style.display="block"
+	document.getElementById("homee").style.display="none"
+
+
+	}
+ </script>
+</body>
+</html>
